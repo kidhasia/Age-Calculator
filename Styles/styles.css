@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #1a1a1a;
+    color: #f7f7f7;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .container {
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 5px;
+    animation: fadeIn 1s ease;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    animation: fadeIn 1.2s ease;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #cccccc;
+    animation: fadeIn 1.4s ease;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #444;
+    color: #f7f7f7;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    animation: fadeIn 1.6s ease;
+  }
+  
+  input:focus {
+    background-color: #555;
+    color: #ffffff;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: fadeIn 1.8s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    animation: fadeIn 2s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+      margin: 30px auto;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    input {
+      max-width: 100%;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  
+    #result {
+      font-size: 20px;
+    }
+  }
+  
