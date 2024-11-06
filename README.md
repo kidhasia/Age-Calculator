@@ -4,7 +4,7 @@ A simple and dynamic web application to calculate age in years, months, and days
 
 ## Description
 
-This project is a user-friendly age calculator that leverages HTML, CSS, and JavaScript to deliver accurate age calculations. Designed with a sleek, dark-themed UI and smooth animations, the application offers an engaging and responsive experience across various devices.
+This project is a user-friendly age calculator that leverages HTML, CSS, and  also JavaScript to deliver accurate age calculations. Designed with a sleek, dark-themed UI and smooth animations, the application offers an engaging and responsive experience across various devices.
 
 ## Features
 
