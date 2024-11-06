@@ -1,6 +1,6 @@
 # Age Calculator
 
-A simple, dynamic web application to calculate age in years, months, and days from a given birthdate.
+A simple and dynamic web application to calculate age in years, months, and days from a given birthdate.
 
 ## Description
 
